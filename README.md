@@ -1,4 +1,4 @@
-# 🛰️ News Impact Radar - CrewAI Demo
+# 🛰️ News Impact Radar
 
 A sophisticated news monitoring and analysis system built with CrewAI framework, featuring real-time news fetching, AI-powered summarization, social media monitoring, and impact scoring.
 
