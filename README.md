@@ -32,11 +32,12 @@ A sophisticated news monitoring and analysis system built with CrewAI framework,
    ```
 
 3. **Set up environment variables**
-   The `.env` file is already configured with your API keys:
+   Create a `.env` file in the project root with your API keys:
    ```
-   GEMINI_API_KEY=AIzaSyA3QWMgz6P3Yu1Yr88onDM72jRe0KBSMAQ
-   TWITTER_API_KEY=hSwBJyUfAPBpO2kFgMCgp7Ozr
-   NEWSAPI_KEY=6ccdc3c34bd4429ebafe857e01e1d99b
+   GEMINI_API_KEY=your_gemini_api_key_here
+   TWITTER_API_KEY=your_twitter_api_key_here
+   NEWSAPI_KEY=your_newsapi_key_here
+   OPENAI_API_KEY=your_openai_api_key_here
    ```
 
 4. **Run the application**
@@ -115,6 +116,7 @@ The system includes multiple fail-safe mechanisms:
 - All API calls include proper error handling
 - No sensitive data is logged or stored
 - Graceful fallbacks prevent API key exposure
+- **Important**: Never commit your `.env` file to version control
 
 ## 🐛 Troubleshooting
 
